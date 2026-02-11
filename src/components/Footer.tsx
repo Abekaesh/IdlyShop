@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           {/* Restaurant Info */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <img src="/src/assets/logo.png" alt="IDLY SHOP Logo" className="w-12 h-12" />
+              <img src="/images/logo.png" alt="IDLY SHOP Logo" className="w-12 h-12" />
               <span className="text-2xl font-serif font-bold">IDLY SHOP</span>
             </div>
             <p className="mb-6 text-primary-100">We love to cook for you</p>
