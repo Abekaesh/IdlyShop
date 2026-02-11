@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white text-primary-800 font-sans;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-serif;
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-2 bg-primary-700 text-white rounded-md hover:bg-primary-800 transition-colors;
+  }
+  
+  .btn-outline {
+    @apply px-6 py-2 border-2 border-primary-700 text-primary-700 rounded-md hover:bg-primary-700 hover:text-white transition-colors;
+  }
+
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-12 md:py-20;
+  }
+}
