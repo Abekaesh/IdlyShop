@@ -12,7 +12,7 @@ const Home: React.FC = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center z-0" 
           style={{ 
-            backgroundImage: 'url(/public/images/shop.webp)',
+            backgroundImage: 'url(/images/shop.webp)',
             backgroundPosition: 'center 30%'
           }}
         >
