@@ -36,98 +36,98 @@ const menuItems: Record<MenuCategoryKey, MenuItem[]> = {
       name: 'Idly (3 Nos)',
       description: 'Soft and fluffy steamed rice cakes served with sambar and chutney',
       price: '₹15',
-      image: './src/assets/idly.webp',
+      image: '/public/images/idly.webp',
       vegetarian: true
     },
     {
       name: 'Thattu Dosa',
       description: 'Traditional thick and crispy dosa',
       price: '₹15',
-      image: './src/assets/thattu-dosa.jpeg',
+      image: '/public/images/thattu-dosa.jpeg',
       vegetarian: true
     },
     {
       name: 'Ghee Thattu Dosa',
       description: 'Thattu dosa prepared with pure ghee for extra flavor',
       price: '₹25',
-      image: './src/assets/thattu-dosa.jpeg',
+      image: '/public/images/thattu-dosa.jpeg',
       vegetarian: true
     },
     {
       name: 'Plain Roast',
       description: 'Crispy and thin roasted dosa',
       price: '₹60',
-      image: './src/assets/plain-roast.jpg',
+      image: '/public/images/plain-roast.jpg',
       vegetarian: true
     },
     {
       name: 'Ghee Roast',
       description: 'Crispy dosa roasted with ghee',
       price: '₹80',
-      image: './src/assets/ghee_roat.png',
+      image: '/public/images/ghee_roat.png',
       vegetarian: true
     },
     {
       name: 'Podi Roast',
       description: 'Roasted dosa with spicy podi (gun powder) spread',
       price: '₹85',
-      image: './src/assets/ghee-podi-roast.jpg',
+      image: '/public/images/ghee-podi-roast.jpg',
       vegetarian: true
     },
     {
       name: 'Ghee Podi Roast',
       description: 'Podi roast prepared with ghee',
       price: '₹100',
-      image: './src/assets/ghee-podi-roast.jpg',
+      image: '/public/images/ghee-podi-roast.jpg',
       vegetarian: true
     },
     {
       name: 'Butter Roast',
       description: 'Crispy dosa roasted with butter',
       price: '₹100',
-      image: './src/assets/butter-roast.jpg',
+      image: '/public/images/butter-roast.jpg',
       vegetarian: true
     },
     {
       name: 'Masala Dosa',
       description: 'Crispy dosa filled with spiced potato masala',
       price: '₹80',
-      image: './src/assets/masala-dosa.jpg',
+      image: '/public/images/masala-dosa.jpg',
       vegetarian: true
     },
     {
       name: 'Ghee Masala Dosa',
       description: 'Masala dosa prepared with ghee',
       price: '₹90',
-      image: './src/assets/ghee-masala-dosa.jpg',
+      image: '/public/images/ghee-masala-dosa.jpg',
       vegetarian: true
     },
     {
       name: 'Butter Masala Dosa',
       description: 'Masala dosa roasted with butter',
       price: '₹110',
-      image: './src/assets/butter-masala-dosa.png',
+      image: '/public/images/butter-masala-dosa.png',
       vegetarian: true
     },
     {
       name: 'Ghee Podi Masala Dosa',
       description: 'Masala dosa with podi and ghee',
       price: '₹105',
-      image: './src/assets/ghee-podi-masala-dosa.webp',
+      image: '/public/images/ghee-podi-masala-dosa.webp',
       vegetarian: true
     },
     {
       name: 'Poori with Curry',
       description: 'Deep-fried puffed bread served with potato curry',
       price: '₹75',
-      image: './src/assets/poori-with-curry.jpg',
+      image: '/public/images/poori-with-curry.jpg',
       vegetarian: true
     },
     {
       name: 'Chappathi with Curry',
       description: 'Soft wheat flatbread served with potato curry',
       price: '₹75',
-      image: './src/assets/chappathi-with-curry.jpg',
+      image: '/public/images/chappathi-with-curry.jpg',
       vegetarian: true
     },
   ],
@@ -136,84 +136,84 @@ const menuItems: Record<MenuCategoryKey, MenuItem[]> = {
       name: 'Five Taste Dosa',
       description: 'Special dosa with five different flavors',
       price: '₹110',
-      image: './src/assets/five-taste-dosa.jpg',
+      image: '/public/images/five-taste-dosa.jpg',
       vegetarian: true
     },
     {
       name: 'Onion Roast',
       description: 'Crispy dosa topped with caramelized onions',
       price: '₹85',
-      image: './src/assets/onion-roast.jpg',
+      image: '/public/images/onion-roast.jpg',
       vegetarian: true
     },
     {
       name: 'Ghee Onion Podi Roast',
       description: 'Onion roast with podi and ghee',
       price: '₹110',
-      image: './src/assets/onion-podi-roast.jpg',
+      image: '/public/images/onion-podi-roast.jpg',
       vegetarian: true
     },
     {
       name: 'Onion Tomato Podi Roast',
       description: 'Roasted dosa with onions, tomatoes, and podi',
       price: '₹120',
-      image: './src/assets/onion-tomato-dosa.avif',
+      image: '/public/images/onion-tomato-dosa.avif',
       vegetarian: true
     },
     {
       name: 'Spicy Masala Dosa',
       description: 'Masala dosa with extra spicy filling',
       price: '₹90',
-      image: './src/assets/spicy-masala.jpg',
+      image: '/public/images/spicy-masala.jpg',
       vegetarian: true
     },
     {
       name: 'Paneer Masala',
       description: 'Dosa filled with spiced paneer masala',
       price: '₹140',
-      image: './src/assets/paneer-dosa.webp',
+      image: '/public/images/paneer-dosa.webp',
       vegetarian: true
     },
     {
       name: 'Mushroom Masala',
       description: 'Dosa filled with mushroom masala',
       price: '₹140',
-      image: './src/assets/mushroom-dosa.png',
+      image: '/public/images/mushroom-dosa.png',
       vegetarian: true
     },
     {
       name: 'Gobi Masala',
       description: 'Dosa filled with cauliflower masala',
       price: '₹140',
-      image: './src/assets/gobi-dosa.png',
+      image: '/public/images/gobi-dosa.png',
       vegetarian: true
     },
     {
       name: 'Kaju Masala',
       description: 'Premium dosa filled with cashew masala',
       price: '₹150',
-      image: './src/assets/kaju-masala-dosa.jpg',
+      image: '/public/images/kaju-masala-dosa.jpg',
       vegetarian: true
     },
     {
       name: 'Onion Uthapam',
       description: 'Thick pancake topped with onions',
       price: '₹80',
-      image: './src/assets/onion-uttapam.jpg',
+      image: '/public/images/onion-uttapam.jpg',
       vegetarian: true
     },
     {
       name: 'Tomato Uthapam',
       description: 'Thick pancake topped with tomatoes',
       price: '₹80',
-      image: './src/assets/tomato-uthapam.avif',
+      image: '/public/images/tomato-uthapam.avif',
       vegetarian: true
     },
     {
       name: 'Ghee Podi Uthapam',
       description: 'Uthapam with podi and ghee',
       price: '₹120',
-      image: './src/assets/podi-uthappam.jpg',
+      image: '/public/images/podi-uthappam.jpg',
       vegetarian: true
     },
   ],
@@ -222,70 +222,70 @@ const menuItems: Record<MenuCategoryKey, MenuItem[]> = {
       name: 'Veg Biryani',
       description: 'Fragrant basmati rice cooked with mixed vegetables and spices',
       price: '₹100',
-      image: './src/assets/veg-biryani.png',
+      image: '/public/images/veg-biryani.png',
       vegetarian: true
     },
     {
       name: 'Paneer Biryani',
       description: 'Aromatic biryani with paneer cubes',
       price: '₹130',
-      image: './src/assets/paneer-biriyani.png',
+      image: '/public/images/paneer-biriyani.png',
       vegetarian: true
     },
     {
       name: 'Mushroom Biryani',
       description: 'Fragrant biryani with mushrooms',
       price: '₹130',
-      image: './src/assets/mushroom-biriyani.png',
+      image: '/public/images/mushroom-biriyani.png',
       vegetarian: true
     },
     {
       name: 'Veg Pulao',
       description: 'Mild and aromatic rice with vegetables',
       price: '₹100',
-      image: './src/assets/veg-biryani.png',
+      image: '/public/images/veg-biryani.png',
       vegetarian: true
     },
     {
       name: 'Paneer Pulao',
       description: 'Pulao with paneer cubes',
       price: '₹130',
-      image: './src/assets/paneer-biriyani.png',
+      image: '/public/images/paneer-biriyani.png',
       vegetarian: true
     },
     {
       name: 'Mushroom Pulao',
       description: 'Pulao with mushrooms',
       price: '₹130',
-      image: './src/assets/mushroom-biriyani.png',
+      image: '/public/images/mushroom-biriyani.png',
       vegetarian: true
     },
     {
       name: 'Veg Fried Rice',
       description: 'Stir-fried rice with vegetables',
       price: '₹100',
-      image: './src/assets/veg-fried-rice.png',
+      image: '/public/images/veg-fried-rice.png',
       vegetarian: true
     },
     {
       name: 'Paneer Fried Rice',
       description: 'Fried rice with paneer',
       price: '₹130',
-      image: './src/assets/paneer-fried-rice.jpg',
+      image: '/public/images/paneer-fried-rice.jpg',
       vegetarian: true
     },
     {
       name: 'Mushroom Fried Rice',
       description: 'Fried rice with mushrooms',
       price: '₹130',
-      image: './src/assets/mushroom-fried-rice.jpg',
+      image: '/public/images/mushroom-fried-rice.jpg',
       vegetarian: true
     },
     {
       name: 'Tomato Rice',
       description: 'Rice cooked with tomatoes and spices',
       price: '₹60',
-      image: './src/assets/tomato-rice.webp',
+      image: '/public/images/tomato-rice.webp',
       vegetarian: true
     },
   ],
@@ -294,91 +294,91 @@ const menuItems: Record<MenuCategoryKey, MenuItem[]> = {
       name: 'Mini Ghee Sambar Idly',
       description: 'Mini idlies dunked in ghee and sambar',
       price: '₹90',
-      image: './src/assets/mini-ghee-sambar-idly.jpg',
+      image: '/public/images/mini-ghee-sambar-idly.jpg',
       vegetarian: true
     },
     {
       name: 'Chilly Idly',
       description: 'Idly tossed with spicy chilly sauce',
       price: '₹100',
-      image: './src/assets/chilli-idly.jpg',
+      image: '/public/images/chilli-idly.jpg',
       vegetarian: true
     },
     {
       name: 'Fried Idly',
       description: 'Crispy fried idly pieces',
       price: '₹100',
-      image: './src/assets/fried-idly.jpg',
+      image: '/public/images/fried-idly.jpg',
       vegetarian: true
     },
     {
       name: 'Podi Idly',
       description: 'Idly tossed with spicy podi',
       price: '₹100',
-      image: './src/assets/podi-idly.jpg',
+      image: '/public/images/podi-idly.jpg',
       vegetarian: true
     },
     {
       name: 'Idly Manchurian',
       description: 'Idly in Indo-Chinese manchurian sauce',
       price: '₹100',
-      image: './src/assets/idly-manchurian.jpg',
+      image: '/public/images/idly-manchurian.jpg',
       vegetarian: true
     },
     {
       name: 'Pepper Idly',
       description: 'Idly tossed with crushed pepper',
       price: '₹100',
-      image: './src/assets/pepper-idly.jpg',
+      image: '/public/images/pepper-idly.jpg',
       vegetarian: true
     },
     {
       name: 'Masala Idly',
       description: 'Idly with spicy masala coating',
       price: '₹100',
-      image: './src/assets/masala-idly.jpg',
+      image: '/public/images/masala-idly.jpg',
       vegetarian: true
     },
     {
       name: 'Battura with Curry',
       description: 'Fluffy deep-fried bread served with curry',
       price: '₹80',
-      image: './src/assets/battura-with-curry.webp',
+      image: '/public/images/battura-with-curry.webp',
       vegetarian: true
     },
     {
       name: 'Chilly Parotta',
       description: 'Parotta tossed with spicy chilly sauce',
       price: '₹100',
-      image: './src/assets/chilli-parotta.jpg',
+      image: '/public/images/chilli-parotta.jpg',
       vegetarian: true
     },
     {
       name: 'Kothu Parotta',
       description: 'Shredded parotta stir-fried with vegetables and spices',
       price: '₹100',
-      image: './src/assets/kothu-parotta.jpg',
+      image: '/public/images/kothu-parotta.jpg',
       vegetarian: true
     },
     {
       name: 'Paneer Kothu Parotta',
       description: 'Kothu parotta with paneer',
       price: '₹130',
-      image: './src/assets/paneer-kothu-parotta.jpg',
+      image: '/public/images/paneer-kothu-parotta.jpg',
       vegetarian: true
     },
     {
       name: 'Mushroom Kothu Parotta',
       description: 'Kothu parotta with mushrooms',
       price: '₹130',
-      image: './src/assets/mushroom-kothu-parotta.jpg',
+      image: '/public/images/mushroom-kothu-parotta.jpg',
       vegetarian: true
     },
     {
       name: 'Gobi Kothu Parotta',
       description: 'Kothu parotta with cauliflower',
       price: '₹130',
-      image: './src/assets/gobi-kothu-parotta.jpg',
+      image: '/public/images/gobi-kothu-parotta.jpg',
       vegetarian: true
     },
   ],
@@ -387,49 +387,49 @@ const menuItems: Record<MenuCategoryKey, MenuItem[]> = {
       name: 'Idly 65',
       description: 'Spicy fried idly 65 style',
       price: '₹100',
-      image: './src/assets/idly-65.jpg',
+      image: '/public/images/idly-65.jpg',
       vegetarian: true
     },
     {
       name: 'Gobi 65',
       description: 'Crispy fried cauliflower 65',
       price: '₹100',
-      image: './src/assets/gobi-65.webp',
+      image: '/public/images/gobi-65.webp',
       vegetarian: true
     },
     {
       name: 'Paneer 65',
       description: 'Spicy fried paneer cubes',
       price: '₹140',
-      image: './src/assets/paneer-65.avif',
+      image: '/public/images/paneer-65.avif',
       vegetarian: true
     },
     {
       name: 'Mushroom 65',
       description: 'Crispy fried mushroom 65',
       price: '₹140',
-      image: './src/assets/mushrrom-65.jpg',
+      image: '/public/images/mushrrom-65.jpg',
       vegetarian: true
     },
     {
       name: 'Gobi Pepper Fry',
       description: 'Cauliflower stir-fried with crushed pepper',
       price: '₹140',
-      image: './src/assets/gobi-pepper-fry.webp',
+      image: '/public/images/gobi-pepper-fry.webp',
       vegetarian: true
     },
     {
       name: 'Paneer Pepper Fry',
       description: 'Paneer stir-fried with pepper',
       price: '₹140',
-      image: './src/assets/paneer-pepper-fry.jpg',
+      image: '/public/images/paneer-pepper-fry.jpg',
       vegetarian: true
     },
     {
       name: 'Mushroom Pepper Fry',
       description: 'Mushroom stir-fried with pepper',
       price: '₹140',
-      image: './src/assets/mushroom-pepper-fry.jpg',
+      image: '/public/images/mushroom-pepper-fry.jpg',
       vegetarian: true
     },
   ],
@@ -438,56 +438,56 @@ const menuItems: Record<MenuCategoryKey, MenuItem[]> = {
       name: 'Gobi Manchurian',
       description: 'Cauliflower in Indo-Chinese manchurian sauce',
       price: '₹120',
-      image: './src/assets/gobi-manchurian.jpg',
+      image: '/public/images/gobi-manchurian.jpg',
       vegetarian: true
     },
     {
       name: 'Chilly Gobi',
       description: 'Crispy cauliflower tossed in spicy chilly sauce',
       price: '₹120',
-      image: './src/assets/chilly-gobi.jpg',
+      image: '/public/images/chilly-gobi.jpg',
       vegetarian: true
     },
     {
       name: 'Paneer Butter Masala',
       description: 'Paneer cubes in creamy tomato-butter gravy',
       price: '₹140',
-      image: './src/assets/paneer-butter-masala.jpg',
+      image: '/public/images/paneer-butter-masala.jpg',
       vegetarian: true
     },
     {
       name: 'Paneer Manchurian',
       description: 'Paneer in Indo-Chinese manchurian sauce',
       price: '₹140',
-      image: './src/assets/paneer-manchurian.png',
+      image: '/public/images/paneer-manchurian.png',
       vegetarian: true
     },
     {
       name: 'Chilly Paneer',
       description: 'Paneer tossed in spicy chilly sauce',
       price: '₹140',
-      image: './src/assets/chilli_paneer.avif',
+      image: '/public/images/chilli_paneer.avif',
       vegetarian: true
     },
     {
       name: 'Mushroom Masala',
       description: 'Mushrooms in spicy masala gravy',
       price: '₹140',
-      image: './src/assets/mushroom-masala.jpg',
+      image: '/public/images/mushroom-masala.jpg',
       vegetarian: true
     },
     {
       name: 'Mushroom Manchurian',
       description: 'Mushrooms in Indo-Chinese manchurian sauce',
       price: '₹140',
-      image: './src/assets/mushroom-manchurian.avif',
+      image: '/public/images/mushroom-manchurian.avif',
       vegetarian: true
     },
     {
       name: 'Chilly Mushroom',
       description: 'Mushrooms tossed in spicy chilly sauce',
       price: '₹140',
-      image: './src/assets/chilli-mushroom.avif',
+      image: '/public/images/chilli-mushroom.avif',
       vegetarian: true
     },
   ],
@@ -496,63 +496,63 @@ const menuItems: Record<MenuCategoryKey, MenuItem[]> = {
       name: 'Coffee (Instant)',
       description: 'Quick and refreshing instant coffee',
       price: '₹22',
-      image: './src/assets/coffee.jpg',
+      image: '/public/images/coffee.jpg',
       vegetarian: true
     },
     {
       name: 'Pure Filter Coffee',
       description: 'Traditional South Indian filter coffee',
       price: '₹30',
-      image: './src/assets/coffee.jpg',
+      image: '/public/images/coffee.jpg',
       vegetarian: true
     },
     {
       name: 'Black Coffee',
       description: 'Strong black coffee',
       price: '₹12',
-      image: './src/assets/black-coffee.jpg',
+      image: '/public/images/black-coffee.jpg',
       vegetarian: true
     },
     {
       name: 'Chukku Coffee',
       description: 'Traditional coffee with dry ginger',
       price: '₹20',
-      image: './src/assets/chukku-kaapi.jpg',
+      image: '/public/images/chukku-kaapi.jpg',
       vegetarian: true
     },
     {
       name: 'Tea',
       description: 'Hot tea with milk',
       price: '₹14',
-      image: './src/assets/tea.jpg',
+      image: '/public/images/tea.jpg',
       vegetarian: true
     },
     {
       name: 'Black Tea',
       description: 'Strong black tea',
       price: '₹10',
-      image: './src/assets/black-tea.jpg',
+      image: '/public/images/black-tea.jpg',
       vegetarian: true
     },
     {
       name: 'Boost',
       description: 'Chocolate flavored health drink',
       price: '₹35',
-      image: './src/assets/horlicks.jpg',
+      image: '/public/images/horlicks.jpg',
       vegetarian: true
     },
     {
       name: 'Horlicks',
       description: 'Malted health drink',
       price: '₹35',
-      image: './src/assets/horlicks.jpg',
+      image: '/public/images/horlicks.jpg',
       vegetarian: true
     },
     {
       name: 'Milk',
       description: 'Fresh hot milk',
       price: '₹12',
-      image: './src/assets/milk.avif',
+      image: '/public/images/milk.avif',
       vegetarian: true
     },
   ],
