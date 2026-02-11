@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
       <nav className="container-custom py-4">
         <div className="flex items-center justify-between">
           <NavLink to="/" className="flex items-center gap-2">
-            <img src="/src/assets/logo.png" alt="IDLY SHOP Logo" className="w-16 h-16" />
+            <img src="/images/logo.png" alt="IDLY SHOP Logo" className="w-16 h-16" />
             <span className="text-2xl font-serif font-bold">IDLY SHOP</span>
           </NavLink>
 
